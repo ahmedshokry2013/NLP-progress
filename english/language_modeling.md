@@ -52,6 +52,9 @@ consists of around 2 million words extracted from Wikipedia articles.
   
 | Model           | Validation perplexity | Test perplexity |  Paper / Source | Code |
 | ------------- | :-----:| :-----:| --- | --- |
+| Transformer-XL Large (Anonymous ICLR 2019 submission) | 18.2 | 18.9 | [Transformer-XL: Language Modeling with Longer-Term Dependency](https://openreview.net/forum?id=HJePno0cYm) | |
+| ADP-T (Baevski and Auli, 2018) | 19.79 | 20.51 | [Adaptive Input Representations for Neural Language Modeling](https://arxiv.org/abs/1809.10853) | |
+| Transformer-XL Standard (Anonymous ICLR 2019 submission) | 23.1 | 24.0 | [Transformer-XL: Language Modeling with Longer-Term Dependency](https://openreview.net/forum?id=HJePno0cYm) | |
 | LSTM + Hebbian + Cache + MbPA (Rae et al., 2018) | 29.0 | 29.2 | [Fast Parametric Learning with Activation Memorization](http://arxiv.org/abs/1803.10049) | |
 | LSTM + Hebbian (Rae et al., 2018) | 34.1 | 34.3 | [Fast Parametric Learning with Activation Memorization](http://arxiv.org/abs/1803.10049) | |
 | LSTM (Rae et al., 2018) | 36.0 | 36.4 | [Fast Parametric Learning with Activation Memorization](http://arxiv.org/abs/1803.10049) | |
